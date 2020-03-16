@@ -24,6 +24,7 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:background="@drawable/fruits"
+            android:onClick="buClick"
             android:layout_marginRight="50dp"/>
 
         <Button
@@ -31,6 +32,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="0"
+            android:onClick="buClick"
             android:background="@drawable/vig" />
     </LinearLayout>
 
@@ -49,6 +51,7 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:background="@drawable/math"
+            android:onClick="buClick"
             android:layout_marginRight="50dp"/>
 
         <Button
@@ -56,6 +59,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="0"
+            android:onClick="buClick"
             android:background="@drawable/arabe" />
     </LinearLayout>
 
@@ -74,6 +78,7 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:background="@drawable/animals"
+            android:onClick="buClick"
             android:layout_marginRight="50dp"/>
 
         <Button
@@ -81,6 +86,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="0"
+            android:onClick="buClick"
             android:background="@drawable/couleurs" />
 
     </LinearLayout></LinearLayout>

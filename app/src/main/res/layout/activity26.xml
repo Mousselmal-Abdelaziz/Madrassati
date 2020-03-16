@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/imgg">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:progressDrawable="@drawable/pb_drawable"
+            android:max="100"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rectangle_1"
+            android:layout_width="265dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="35dp"
+            android:layout_weight="0"
+            android:background="@drawable/rectangle_4"
+            android:text=" ما اسم الحيوان الذي في الصورة؟"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            tools:srcCompat="@drawable/bata" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="60dp"
+        >
+
+        <Button
+            android:id="@+id/rectangle_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:onClick="buClick"
+            android:background="@drawable/rectangle_6"
+            android:text="قرد" />
+
+        <Button
+            android:id="@+id/rectangle_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:onClick="buClick"
+            android:background="@drawable/rectangle_6"
+            android:text="كلب" />
+
+        <Button
+            android:id="@+id/rectangle_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_6"
+            android:textSize="20sp"
+            android:onClick="buClick"
+            android:text="بطة" />
+
+        <Button
+            android:id="@+id/rectangle_5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@drawable/rectangle_6"
+            android:onClick="buClick"
+            android:text="باندا" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/rectangle_6"
+            android:layout_width="107dp"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:background="@drawable/rectangle_6"
+            android:text="التالي"
+            android:onClick="buClick"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</LinearLayout>
