@@ -11,6 +11,8 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim blink_anim
+anim bounce
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -23,6 +25,15 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+anim fadein
+anim fadeout
+anim lefttoright
+anim mixed_anim
+anim righttoleft
+anim rotate
+anim sample_anim
+anim zoomin
+anim zoomout
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -989,6 +1000,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 raw correct
 raw fail
+raw lose
+raw win
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

@@ -3,6 +3,7 @@ package com.example.myproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -28,23 +29,30 @@ public class activity211 extends AppCompatActivity {
         Intent intent =getIntent();
         score = intent.getIntExtra("score",0);
         faux =intent.getIntExtra("faux",0);
+        final MediaPlayer mpWin = MediaPlayer.create(this,R.raw.win);
+        final MediaPlayer mpLose = MediaPlayer.create(this,R.raw.lose);
 
 
 
         if((10-faux) < 5){
             txt4.setText("دون المتوسط");
+            mpLose.start();
         }else
         if((10-faux) == 5){
             txt4.setText("متوسط");
+            mpLose.start();
         }else
         if((10-faux) > 5 && (10-faux) <=7){
             txt4.setText("جيد");
+            mpWin.start();
         }else
         if((10-faux) == 8 || (10-faux) == 9){
             txt4.setText("جيد جدا");
+            mpWin.start();
         }else
         if((10-faux) == 10){
             txt4.setText("ممتاز أحسنت");
+            mpWin.start();
         }
 
         txt2.setText(txt2.getText()+" "+(10-faux));

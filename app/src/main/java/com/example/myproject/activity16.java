@@ -8,6 +8,8 @@ import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -55,7 +57,8 @@ public class activity16 extends AppCompatActivity {
         final MediaPlayer mpFail = MediaPlayer.create(this,R.raw.fail);
         final MediaPlayer mpCorrect = MediaPlayer.create(this,R.raw.correct);
         Button buSeclect = (Button) view;
-
+        Animation animation = AnimationUtils.loadAnimation(this,R.anim.fadein);
+        buSeclect.startAnimation(animation);
 
         switch (buSeclect.getId()){
 
