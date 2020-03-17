@@ -68,11 +68,13 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="334dp"
-            android:layout_height="match_parent"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text=""
-            android:textSize="20dp" />
+            android:textColor="#A35671"
+            android:textStyle="bold|italic"
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout

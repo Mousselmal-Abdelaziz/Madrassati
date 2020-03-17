@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/arabeimg">
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:progressDrawable="@drawable/pb_drawable_white"
+            android:max="100"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rectangle_1"
+            android:layout_width="265dp"
+            android:layout_height="76dp"
+            android:layout_weight="0"
+            android:background="@drawable/rectangle5"
+            android:text="أكتب الحرف الناقص:"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            tools:srcCompat="@drawable/sa3a" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+
+        <Button
+            android:id="@+id/rectangle_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:onClick="buClick"
+            android:text="غ"
+            android:background="@drawable/rectangle7"
+            />
+
+        <Button
+            android:id="@+id/rectangle_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:onClick="buClick"
+            android:text="ر"
+            android:background="@drawable/rectangle7"
+            />
+
+        <Button
+            android:id="@+id/rectangle_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle7"
+            android:textSize="30dp"
+            android:text="س"
+            android:onClick="buClick"
+            />
+
+        <Button
+            android:id="@+id/rectangle_5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:onClick="buClick"
+            android:background="@drawable/rectangle7"
+            android:text="ع"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:text="سا ..ة" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rectangle_6"
+            android:layout_width="117dp"
+            android:layout_height="53dp"
+            android:layout_weight="0"
+            android:background="@drawable/rectangle7"
+            android:onClick="buClick"
+            android:text="التالي"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>

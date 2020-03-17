@@ -39,9 +39,6 @@ public class activity11 extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar.setProgress(0);
 
-
-
-
     }
 
     public void buClick(View view) {

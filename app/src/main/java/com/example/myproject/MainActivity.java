@@ -48,7 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-            case R.id.buttm4 : break;
+            case R.id.buttm4 : Intent intentArab = new Intent(this,activity31.class);
+                               startActivity(intentArab);
+                               break;
 
 
             case R.id.buttm5 : Intent intent1 = new Intent(this,activity21.class);

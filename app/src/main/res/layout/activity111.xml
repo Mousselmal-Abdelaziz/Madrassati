@@ -72,7 +72,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text=""
-            android:textSize="20dp" />
+            android:textColor="#A35671"
+            android:textStyle="bold|italic"
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
