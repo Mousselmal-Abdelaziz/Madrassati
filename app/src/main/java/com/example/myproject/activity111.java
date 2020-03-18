@@ -57,9 +57,11 @@ public class activity111 extends AppCompatActivity {
         txt3.setText(txt3.getText()+" "+faux);
     }
     public void buClick(View view) {
-        Intent intent = new Intent(this,MainActivity.class );
+        Intent intent = new Intent(this, Second_Main.class );
         startActivity(intent);
 
 
     }
+    @Override
+    public void onBackPressed(){}
 }

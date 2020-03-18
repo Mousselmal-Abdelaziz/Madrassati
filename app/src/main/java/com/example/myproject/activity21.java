@@ -62,8 +62,8 @@ public class activity21 extends AppCompatActivity {
         switch (buSeclect.getId()){
 
             case R.id.rectangle_4 :      btn3.setBackgroundColor(Color.RED);mpFail.start(); if(score >0){score--;} faux++;
+                progressBar1.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                 if(progressBar1.getProgress()>0){progressBar1.setProgress(progressBar1.getProgress()-10);}
-                progressBar1.setBackgroundColor(Color.RED);
                 btn1.setBackgroundColor(Color.GREEN);btn1.setClickable(false);btn2.setClickable(false);
                 btn3.setClickable(false);btn4.setClickable(false); break;
 
@@ -73,15 +73,15 @@ public class activity21 extends AppCompatActivity {
                 btn4.setClickable(false);  break;
 
             case R.id.rectangle_3 :  btn2.setBackgroundColor(Color.RED);mpFail.start();if(score >0){score--;} faux++;
+                progressBar1.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                 btn1.setBackgroundColor(Color.GREEN); btn1.setClickable(false);btn2.setClickable(false);
                 if(progressBar1.getProgress()>0){progressBar1.setProgress(progressBar1.getProgress()-10);}
-                progressBar1.setBackgroundColor(Color.RED);
                 btn3.setClickable(false);btn4.setClickable(false); break;
 
             case R.id.rectangle_5 :  btn4.setBackgroundColor(Color.RED);mpFail.start();if(score >0){score--;}faux++;
                 btn1.setBackgroundColor(Color.GREEN); btn1.setClickable(false);btn2.setClickable(false);
+                progressBar1.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                 if(progressBar1.getProgress()>0){progressBar1.setProgress(progressBar1.getProgress()-10);}
-                progressBar1.setBackgroundColor(Color.RED);
                 btn3.setClickable(false);btn4.setClickable(false);break;
 
 
@@ -97,6 +97,7 @@ public class activity21 extends AppCompatActivity {
 
         }
     }
-
+    @Override
+    public void onBackPressed(){}
 
 }

@@ -97,7 +97,6 @@ public class activity39 extends AppCompatActivity {
                     progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                     progressBar.setProgress(progressBar.getProgress()-10);
                     faux++;
-                    progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                     if(score >0){score--;}
                 }
             } break;
@@ -125,9 +124,9 @@ public class activity39 extends AppCompatActivity {
                         btn6.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn7.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
-                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         if(score >0){score--;}
                     }
                 }
@@ -156,9 +155,9 @@ public class activity39 extends AppCompatActivity {
                         btn6.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn7.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
-                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         if(score >0){score--;}
                     }
                 }
@@ -187,9 +186,9 @@ public class activity39 extends AppCompatActivity {
                         btn6.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn7.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
-                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         if(score >0){score--;}
                     }
                 }
@@ -218,9 +217,9 @@ public class activity39 extends AppCompatActivity {
                         btn6.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn7.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
-                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         if(score >0){score--;}
                     }
                 }
@@ -249,9 +248,9 @@ public class activity39 extends AppCompatActivity {
                         btn6.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn7.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
-                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         if(score >0){score--;}
                     }
                 }
@@ -269,5 +268,6 @@ public class activity39 extends AppCompatActivity {
 
         }
     }
-
+    @Override
+    public void onBackPressed(){}
 }

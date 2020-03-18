@@ -183,5 +183,6 @@ public class activity310 extends AppCompatActivity {
 
         }
     }
-
+    @Override
+    public void onBackPressed(){}
 }

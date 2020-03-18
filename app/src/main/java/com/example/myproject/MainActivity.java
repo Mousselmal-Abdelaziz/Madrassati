@@ -3,93 +3,52 @@ package com.example.myproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1;
-    private Button btn2;
-    private Button btn3;
-    private Button btn4;
-    private Button btn5;
-    private Button btn6;
+    private MediaPlayer mpstart;
+    ImageView img;
+    Button btn;
+    Animation frombuttom,fromtop;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mpstart= MediaPlayer.create(this,R.raw.start);
+        mpstart.start();
 
-        btn1= (Button) findViewById(R.id.buttm1);
-        btn2= (Button) findViewById(R.id.buttm2);
-        btn3= (Button) findViewById(R.id.buttm3);
-        btn4= (Button) findViewById(R.id.buttm4);
-        btn5= (Button) findViewById(R.id.buttm5);
-        btn6= (Button) findViewById(R.id.buttm6);
+        img = (ImageView) findViewById(R.id.start);
+        img.setImageResource(R.drawable.main_photo);
+        btn =(Button) findViewById(R.id.ellipse_1);
+
+        frombuttom = AnimationUtils.loadAnimation(this,R.anim.frombuttom);
+        fromtop = AnimationUtils.loadAnimation(this,R.anim.fromtop);
+        btn.setAnimation(frombuttom);
+
+        img.setAnimation(fromtop);
+
+
+
 
     }
 
     public void buClick(View view) {
-
-        Button buSeclected = (Button) view;
-
-        switch (buSeclected.getId()){
-            case R.id.buttm1 : break;
+        mpstart.stop();
 
 
+        Intent intent = new Intent(this, Second_Main.class);
+        startActivity(intent);
 
-
-            case R.id.buttm2 : break;
-
-
-            case R.id.buttm3 :   Intent intent = new Intent(this,activity11.class);
-                                 startActivity(intent);
-                                 break;
-
-
-
-            case R.id.buttm4 : Intent intentArab = new Intent(this,activity31.class);
-                               startActivity(intentArab);
-                               break;
-
-
-            case R.id.buttm5 : Intent intent1 = new Intent(this,activity21.class);
-                               startActivity(intent1);
-                               break;
-
-
-            case R.id.buttm6 : break;
-
-        }
-    }
-
-
-
+ }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

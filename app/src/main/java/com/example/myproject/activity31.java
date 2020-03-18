@@ -111,6 +111,7 @@ public class activity31 extends AppCompatActivity {
                         btn4.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn5.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
                         if(score >0){score--;}
@@ -137,6 +138,7 @@ public class activity31 extends AppCompatActivity {
                         btn4.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn5.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
                         if(score >0){score--;}
@@ -163,6 +165,7 @@ public class activity31 extends AppCompatActivity {
                         btn4.setBackgroundColor(Color.RED);
                         mpFail.start();
                         btn5.setClickable(true);
+                        progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                         progressBar.setProgress(progressBar.getProgress()-10);
                         faux++;
                         if(score >0){score--;}
@@ -176,12 +179,8 @@ public class activity31 extends AppCompatActivity {
                 intent.putExtra("faux",faux);
                 startActivity(intent);
                 break;
-
-
-
-
-
-        }
+ }
     }
-
+    @Override
+    public void onBackPressed(){}
 }

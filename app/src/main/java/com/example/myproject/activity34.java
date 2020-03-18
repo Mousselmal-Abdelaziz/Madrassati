@@ -135,5 +135,6 @@ public class activity34 extends AppCompatActivity {
 
         }
     }
-
+    @Override
+    public void onBackPressed(){}
 }
