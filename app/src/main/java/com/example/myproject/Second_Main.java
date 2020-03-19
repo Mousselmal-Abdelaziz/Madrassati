@@ -40,7 +40,8 @@ public class Second_Main extends AppCompatActivity {
 
 
 
-            case R.id.buttm2 : break;
+            case R.id.buttm2 : Intent intentMadani = new Intent(this,activity51.class);
+                               startActivity(intentMadani);break;
 
 
             case R.id.buttm3 :   Intent intent = new Intent(this,activity11.class);

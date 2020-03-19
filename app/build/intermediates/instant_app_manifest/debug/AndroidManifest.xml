@@ -19,6 +19,17 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.myproject.activity511" />
+        <activity android:name="com.example.myproject.activity510" />
+        <activity android:name="com.example.myproject.activity59" />
+        <activity android:name="com.example.myproject.activity58" />
+        <activity android:name="com.example.myproject.activity57" />
+        <activity android:name="com.example.myproject.activity56" />
+        <activity android:name="com.example.myproject.activity55" />
+        <activity android:name="com.example.myproject.activity54" />
+        <activity android:name="com.example.myproject.activity53" />
+        <activity android:name="com.example.myproject.activity52" />
+        <activity android:name="com.example.myproject.activity51" />
         <activity android:name="com.example.myproject.activity411" />
         <activity android:name="com.example.myproject.activity410" />
         <activity android:name="com.example.myproject.activity49" />

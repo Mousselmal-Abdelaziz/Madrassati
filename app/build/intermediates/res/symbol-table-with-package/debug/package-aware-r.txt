@@ -684,6 +684,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable carte
 drawable chadi
 drawable couleurs
 drawable din
@@ -693,6 +694,7 @@ drawable fil
 drawable five_kids
 drawable forms
 drawable fruits
+drawable happykids
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable image7
@@ -700,10 +702,14 @@ drawable img
 drawable img2
 drawable img3
 drawable img411
+drawable img53
 drawable img7
 drawable imgg
 drawable imgislam
+drawable imgmadania
 drawable madania
+drawable madania4
+drawable madania511
 drawable main_photo
 drawable math
 drawable moon
@@ -725,6 +731,8 @@ drawable pb_drawable_white
 drawable pb_drawable_wrong
 drawable pncl
 drawable poire
+drawable rectangle10
+drawable rectangle12
 drawable rectangle5
 drawable rectangle7
 drawable rectangle8
@@ -735,6 +743,7 @@ drawable rectangle_3
 drawable rectangle_4
 drawable rectangle_6
 drawable sa3a
+drawable sadkids
 drawable start
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -886,6 +895,7 @@ id rectangle_3
 id rectangle_4
 id rectangle_5
 id rectangle_6
+id resultimage
 id right
 id right_icon
 id right_side
@@ -1041,6 +1051,17 @@ layout activity46
 layout activity47
 layout activity48
 layout activity49
+layout activity51
+layout activity510
+layout activity511
+layout activity52
+layout activity53
+layout activity54
+layout activity55
+layout activity56
+layout activity57
+layout activity58
+layout activity59
 layout activity_first__main
 layout activity_main
 layout custom_dialog
