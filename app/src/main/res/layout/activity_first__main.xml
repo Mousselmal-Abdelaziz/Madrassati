@@ -87,6 +87,6 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:onClick="buClick"
-            android:background="@drawable/couleurs" />
+            android:background="@drawable/icon" />
 
     </LinearLayout></LinearLayout>

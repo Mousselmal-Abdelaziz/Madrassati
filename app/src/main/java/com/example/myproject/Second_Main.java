@@ -60,7 +60,10 @@ public class Second_Main extends AppCompatActivity {
                 break;
 
 
-            case R.id.buttm6 : break;
+            case R.id.buttm6 :  Intent intentScience = new Intent(this,activity61.class);
+                startActivity(intentScience);
+                break;
+
 
         }
     }
