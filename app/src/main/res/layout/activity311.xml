@@ -9,11 +9,12 @@
     android:background="@drawable/img7">
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="290dp"
         android:layout_marginRight="100dp">
 
         <TextView
@@ -22,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="20dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="6dp"
             android:text="القسم:اللغة العربية" />
     </LinearLayout>
 
@@ -38,7 +39,7 @@
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:layout_weight="1"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="6dp"
             android:text="الاجابات الصحيحة:" />
     </LinearLayout>
 
@@ -54,7 +55,7 @@
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:layout_weight="1"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="6dp"
             android:text="الاجابات الخاطئة:"
             />
     </LinearLayout>

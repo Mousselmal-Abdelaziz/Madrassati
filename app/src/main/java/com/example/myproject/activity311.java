@@ -6,10 +6,11 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class activity311 extends AppCompatActivity {
-
+    ImageView resImg;
     TextView txt2;
     TextView txt3;
     TextView txt4;
@@ -25,6 +26,8 @@ public class activity311 extends AppCompatActivity {
         txt2= (TextView)findViewById(R.id.textView2);
         txt3= (TextView)findViewById(R.id.textView3);
         txt4= (TextView)findViewById(R.id.textView4);
+
+        resImg = (ImageView) findViewById(R.id.resultimage);
 
         Intent intent =getIntent();
         score = intent.getIntExtra("score",0);
