@@ -41,13 +41,7 @@
             android:layout_weight="0"
             android:text="12-4="
             android:textSize="40dp"
-            android:background="@drawable/rectangle_1" /><![CDATA[
-
-
-
-        />
-
-    ]]>
+            android:background="@drawable/rectangle_1" />
     </LinearLayout>
 
     <LinearLayout
