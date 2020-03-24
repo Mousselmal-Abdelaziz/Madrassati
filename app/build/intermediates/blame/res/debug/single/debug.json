@@ -12,12 +12,12 @@
         "source": "C:\\Users\\MSI\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "C:\\Users\\MSI\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\MSI\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity511.xml.flat",
-        "source": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\src\\main\\res\\layout\\activity511.xml"
-    },
-    {
         "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\anim_sample_anim.xml.flat",
         "source": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\src\\main\\res\\anim\\sample_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity511.xml.flat",
+        "source": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\src\\main\\res\\layout\\activity511.xml"
     },
     {
         "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity56.xml.flat",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\MSI\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rectangle_6.png.flat",
-        "source": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\rectangle_6.png"
-    },
-    {
         "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\MSI\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rectangle_6.png.flat",
+        "source": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\rectangle_6.png"
     },
     {
         "merged": "C:\\Users\\MSI\\AndroidStudioProjects\\MyProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
