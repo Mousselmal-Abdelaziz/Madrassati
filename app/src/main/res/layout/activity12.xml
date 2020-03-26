@@ -29,7 +29,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -37,9 +38,8 @@
             android:id="@+id/rectangle_1"
             android:layout_width="265dp"
             android:layout_height="76dp"
-            android:layout_marginTop="35dp"
             android:layout_weight="0"
-            android:text="12-4="
+            android:text="12 - 4 ="
             android:textSize="40dp"
             android:background="@drawable/rectangle_1" />
     </LinearLayout>
@@ -50,7 +50,7 @@
         android:orientation="horizontal"
         android:layout_marginBottom="40dp"
         android:gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_gravity="center">
 
         <Button
@@ -59,7 +59,7 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:text="9"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:onClick="buClick"
             android:background="@drawable/rectangle_2"
             android:layout_marginRight="50dp"/>
@@ -70,7 +70,7 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:text="11"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:onClick="buClick"
             android:background="@drawable/rectangle_2" />
     </LinearLayout>
@@ -89,7 +89,7 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:text="8"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:onClick="buClick"
             android:background="@drawable/rectangle_2"
             android:layout_marginRight="50dp"/>
@@ -100,7 +100,7 @@
             android:layout_height="100dp"
             android:layout_weight="0"
             android:text="7"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:onClick="buClick"
             android:background="@drawable/rectangle_2" />
     </LinearLayout>
@@ -119,6 +119,6 @@
             android:background="@drawable/rectangle_2"
             android:text="التالي"
             android:onClick="buClick"
-            android:textSize="40dp" />
+            android:textSize="30dp"/>
     </LinearLayout>
 </LinearLayout>

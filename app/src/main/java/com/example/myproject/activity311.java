@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class activity311 extends AppCompatActivity {
-    ImageView resImg;
+
     TextView txt2;
     TextView txt3;
     TextView txt4;
@@ -27,7 +27,7 @@ public class activity311 extends AppCompatActivity {
         txt3= (TextView)findViewById(R.id.textView3);
         txt4= (TextView)findViewById(R.id.textView4);
 
-        resImg = (ImageView) findViewById(R.id.resultimage);
+
 
         Intent intent =getIntent();
         score = intent.getIntExtra("score",0);

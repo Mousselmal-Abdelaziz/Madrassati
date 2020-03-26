@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/imgislam">
+    android:background="@drawable/kiminawa">
     <LinearLayout
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginBottom="50dp">
+        android:layout_marginBottom="40dp">
 
         <TextView
             android:id="@+id/textView5"
@@ -60,7 +60,9 @@
             android:layout_marginRight="2dp"
             android:textSize="21sp"
             android:textColor="#000000"
-            android:text="'وإن الرجل ليتحرى الصدق حتي يكتب عند الله صديقا'" />
+            android:text="'وإن الرجل ليتحرى الصدق حتي يكتب عند الله صديقا'"
+            android:background="@drawable/buttonislamique"
+            />
     </LinearLayout>
 
 

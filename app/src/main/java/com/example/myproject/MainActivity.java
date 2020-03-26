@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         mpstart= MediaPlayer.create(this,R.raw.start);
         mpstart.start();
 
-        img = (ImageView) findViewById(R.id.start);
-        img.setImageResource(R.drawable.main_photo);
+        img = (ImageView) findViewById(R.id.atfal);
+        img.setImageResource(R.drawable.atfal);
         btn =(Button) findViewById(R.id.ellipse_1);
 
         frombuttom = AnimationUtils.loadAnimation(this,R.anim.frombuttom);

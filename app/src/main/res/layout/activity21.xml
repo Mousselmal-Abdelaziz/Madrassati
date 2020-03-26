@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/imgg">
+    android:background="@drawable/image7">
 
     <LinearLayout
         android:layout_marginTop="30dp"
@@ -29,7 +29,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -37,11 +38,10 @@
             android:id="@+id/rectangle_1"
             android:layout_width="265dp"
             android:layout_height="76dp"
-            android:layout_marginTop="35dp"
             android:layout_weight="0"
             android:background="@drawable/rectangle_4"
             android:text=" ما اسم الحيوان الذي في الصورة؟"
-            android:textSize="20sp"/>
+            android:textSize="30sp"/>
 
     </LinearLayout>
 
@@ -51,7 +51,7 @@
         android:orientation="horizontal"
         android:layout_marginBottom="40dp"
         android:gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_gravity="center">
 
         <ImageView
@@ -76,7 +76,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:onClick="buClick"
             android:background="@drawable/rectangle_6"
             android:text="زرافة" />
@@ -88,7 +88,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:onClick="buClick"
             android:background="@drawable/rectangle_6"
             android:text="فيل" />
@@ -101,7 +101,7 @@
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:background="@drawable/rectangle_6"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:onClick="buClick"
             android:text="كلب" />
 
@@ -112,7 +112,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:background="@drawable/rectangle_6"
             android:onClick="buClick"
             android:text="حصان" />
@@ -125,13 +125,13 @@
         android:gravity="center">
         <Button
             android:id="@+id/rectangle_6"
-            android:layout_width="107dp"
-            android:layout_height="40dp"
+            android:layout_width="117dp"
+            android:layout_height="53dp"
             android:layout_weight="0"
             android:background="@drawable/rectangle_6"
             android:text="التالي"
             android:onClick="buClick"
-            android:textSize="20sp"
+            android:textSize="30sp"
             />
     </LinearLayout>
 </LinearLayout>

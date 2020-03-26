@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class activity211 extends AppCompatActivity {
-    ImageView resImg;
+
     TextView txt2;
     TextView txt3;
     TextView txt4;
@@ -31,8 +31,7 @@ public class activity211 extends AppCompatActivity {
         txt3= (TextView)findViewById(R.id.textView3);
         txt4= (TextView)findViewById(R.id.textView4);
 
-        resImg = (ImageView) findViewById(R.id.resultimage);
-        resImg.setAnimation(fromtop);
+
 
         Intent intent =getIntent();
         score = intent.getIntExtra("score",0);
@@ -46,27 +45,27 @@ public class activity211 extends AppCompatActivity {
         if((10-faux) < 5){
             txt4.setText("دون المتوسط");
             mpLose.start();
-            resImg.setImageResource(R.drawable.sadkids);
+
         }else
         if((10-faux) == 5){
             txt4.setText("متوسط");
             mpLose.start();
-            resImg.setImageResource(R.drawable.sadkids);
+
         }else
         if((10-faux) > 5 && (10-faux) <=7){
             txt4.setText("جيد");
             mpWin.start();
-            resImg.setImageResource(R.drawable.happykids);
+
         }else
         if((10-faux) == 8 || (10-faux) == 9){
             txt4.setText("جيد جدا");
             mpWin.start();
-            resImg.setImageResource(R.drawable.happykids);
+
         }else
         if((10-faux) == 10){
             txt4.setText("ممتاز أحسنت");
             mpWin.start();
-            resImg.setImageResource(R.drawable.happykids);
+
         }
 
         txt2.setText(txt2.getText()+" "+(10-faux));

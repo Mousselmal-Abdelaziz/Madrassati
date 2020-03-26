@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/imgislam">
+    android:background="@drawable/kiminawa">
 
     <LinearLayout
         android:layout_marginTop="30dp"
@@ -52,9 +52,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center">
 
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginRight="5dp"
+            android:text="أطلب العلم باللعب طول الوقت"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="80dp"
+        android:gravity="center">
         <Button
             android:id="@+id/buttm1"
             android:layout_width="60dp"
@@ -78,15 +98,8 @@
             android:text="خطأ"
             android:textSize="25dp" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:layout_marginRight="5dp"
-            android:text="أطلب العلم باللعب طول الوقت"
-            android:textColor="#000000"
-            android:textSize="22sp" />
+
+
 
     </LinearLayout>
 

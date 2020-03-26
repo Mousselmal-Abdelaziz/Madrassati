@@ -64,6 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:layout_marginRight="5dp"
+            android:background="@drawable/buttonreponse"
             android:text="تعيش معناالحيوانات الغير الأليفة"
             android:textColor="#000000"
             android:textSize="25sp" />

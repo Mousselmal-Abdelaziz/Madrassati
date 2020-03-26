@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/imgislam">
+    android:background="@drawable/kiminawa">
     <LinearLayout
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
@@ -61,7 +61,8 @@
             android:layout_marginRight="2dp"
             android:textSize="23sp"
             android:textColor="#000000"
-            android:text="'أدّ الأمانة إلى من ائتمَنكَ'" />
+            android:text="'أدّ الأمانة إلى من ائتمَنكَ'"
+           />
     </LinearLayout>
 
 

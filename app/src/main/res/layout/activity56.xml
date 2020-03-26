@@ -53,19 +53,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="45dp"
-        android:gravity="center">
+        android:layout_marginBottom="30dp"
+        >
 
 
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:layout_marginRight="5dp"
+            android:layout_weight="1"
             android:text="استخرج بِطاقتي المدرسية من دار البلدية"
+            android:background="@drawable/buttonreponse"
             android:textColor="#000000"
             android:textSize="25sp" />
 
