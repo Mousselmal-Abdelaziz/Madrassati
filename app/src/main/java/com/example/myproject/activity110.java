@@ -39,7 +39,7 @@ public class activity110 extends AppCompatActivity {
         btn3=(Button)findViewById(R.id.rectangle_4);
         btn4=(Button)findViewById(R.id.rectangle_5);
         btn5=(Button)findViewById(R.id.rectangle_6);
-
+        btn5.setClickable(false);
         img=(ImageView)findViewById(R.id.imageView);
         img.setImageResource(R.drawable.appelrouge);
 
@@ -63,24 +63,24 @@ public class activity110 extends AppCompatActivity {
         switch (buSeclect.getId()){
 
             case R.id.rectangle_2 : btn1.setBackgroundColor(Color.RED);mpFail.start(); if(score >0){score--;}faux++;
-                progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
+                progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));btn5.setClickable(true);
                 if(progressBar.getProgress()>0){progressBar.setProgress(progressBar.getProgress()-10);}
                 btn2.setBackgroundColor(Color.GREEN);btn1.setClickable(false);btn2.setClickable(false);
                 btn3.setClickable(false);btn4.setClickable(false); break;
 
             case R.id.rectangle_3 : btn2.setBackgroundColor(Color.GREEN); mpCorrect.start(); score++;
-                btn1.setClickable(false);btn2.setClickable(false);btn3.setClickable(false);
+                btn1.setClickable(false);btn2.setClickable(false);btn3.setClickable(false);btn5.setClickable(true);
                 if(progressBar.getProgress()<100){progressBar.setProgress(progressBar.getProgress()+10);}
                 btn4.setClickable(false);  break;
 
             case R.id.rectangle_4 : btn3.setBackgroundColor(Color.RED);mpFail.start();if(score >0){score--;}faux++;
-                btn2.setBackgroundColor(Color.GREEN); btn1.setClickable(false);btn2.setClickable(false);
+                btn2.setBackgroundColor(Color.GREEN); btn1.setClickable(false);btn2.setClickable(false);btn5.setClickable(true);
                 progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                 if(progressBar.getProgress()>0){progressBar.setProgress(progressBar.getProgress()-10);}
                 btn3.setClickable(false);btn4.setClickable(false); break;
 
             case R.id.rectangle_5 : btn4.setBackgroundColor(Color.RED);mpFail.start();if(score >0){score--;}faux++;
-                btn2.setBackgroundColor(Color.GREEN); btn1.setClickable(false);btn2.setClickable(false);
+                btn2.setBackgroundColor(Color.GREEN); btn1.setClickable(false);btn2.setClickable(false);btn5.setClickable(true);
                 progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.pb_drawable_wrong));
                 if(progressBar.getProgress()>0){progressBar.setProgress(progressBar.getProgress()-10);}
                 btn3.setClickable(false);btn4.setClickable(false);break;
